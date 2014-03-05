@@ -1,6 +1,8 @@
 # FastSqlite
 
-TODO: Write a gem description
+Makes sqlite faster... but at what cost?
+
+(The cost is data integrity)
 
 ## Installation
 
