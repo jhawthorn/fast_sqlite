@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = FastSqlite::VERSION
   spec.authors       = ["John Hawthorn"]
   spec.email         = ["john.hawthorn@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Makes sqlite faster, and probably deletes your data}
+  spec.description   = %q{Sets all sqlite connections to be as performant as possible while sacrificing of data integrity.}
+  spec.homepage      = "https://github.com/jhawthorn/fast_sqlite"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
